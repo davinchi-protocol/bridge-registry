@@ -1,0 +1,26 @@
+# A list of Warp Route token configs
+# These configs will be merged with the warp routes in the configured registry
+# The input here is typically the output of the Hyperlane CLI warp deploy command
+# A list of Warp Route token configs
+# These configs will be merged with the warp routes in the configured registry
+# The input here is typically the output of the Hyperlane CLI warp deploy command
+---
+tokens:
+- addressOrDenom: "0xe9C8042482dC872d3e4DE90fF9816782E87C9614"
+  chainName: davinci
+  connections:
+    - token: ethereum|optimismsepolia|0xe9C8042482dC872d3e4DE90fF9816782E87C9614
+  decimals: 18
+  name: DaVinci
+  standard: EvmHypNative
+  symbol: DCOIN
+- addressOrDenom: "0xe9C8042482dC872d3e4DE90fF9816782E87C9614"
+  chainName: optimismsepolia
+  connections:
+    - token: ethereum|davinci|0xe9C8042482dC872d3e4DE90fF9816782E87C9614
+  decimals: 18
+  name: DaVinci
+  standard: EvmHypSynthetic
+  symbol: DCOIN
+
+options: {}
