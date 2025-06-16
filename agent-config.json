@@ -1,0 +1,116 @@
+{
+  "chains": {
+    "davinci": {
+      "blockExplorers": [
+        {
+          "apiKey": "empty",
+          "apiUrl": "https://mainnet-explorer.davinci.bz/api",
+          "family": "blockscout",
+          "name": "davinciscan",
+          "url": "https://mainnet-explorer.davinci.bz"
+        }
+      ],
+      "chainId": 293,
+      "displayName": "Davinci",
+      "domainId": 293,
+      "isTestnet": true,
+      "name": "davinci",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "DaVinci",
+        "symbol": "DCOIN"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://rpc.davinci.bz"
+        }
+      ],
+      "technicalStack": "other",
+      "domainRoutingIsmFactory": "0x3b15c6C60cB28fEd4bAbBd5001e53fd871674A74",
+      "interchainAccountIsm": "0x193c114cd6DBEdEfe439F0259ae7B15F361937C3",
+      "interchainAccountRouter": "0xB9900B8CE3b4326E87791C3611E1CF8E1B3FEfc8",
+      "mailbox": "0x6bCc0C592fb6AfBf8381994f23421C4EE00e99E9",
+      "merkleTreeHook": "0xf623eE8E60b040fC8a3879340acee097b3f19436",
+      "proxyAdmin": "0xaCEC2b16a7EC1E23D54F6aBFB1e45d90F80F3856",
+      "staticAggregationHookFactory": "0x6eaECB60FAA978F76f58b440592635a11dA83CD2",
+      "staticAggregationIsmFactory": "0x659fE4463b450f97C4AbEEDBe36A0435d011C335",
+      "staticMerkleRootMultisigIsmFactory": "0xa223f6C8d7965148e5ef870c1e62068318830239",
+      "staticMerkleRootWeightedMultisigIsmFactory": "0xb1BA0910401Bc2b2763DD566Bab519cf00E424EF",
+      "staticMessageIdMultisigIsmFactory": "0xF95630fA71f6cd231643e7d99A20C59C0bD23931",
+      "staticMessageIdWeightedMultisigIsmFactory": "0x0F1d222025d00Bef84BeaF55c39BA541570f6628",
+      "testRecipient": "0x6dd3ed2fa4Faa1b6015f3D78Ade502d14DE80a38",
+      "validatorAnnounce": "0x8849cafA1C39deD97C0f9c11B9D575A63803112b",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 1426563
+      }
+    },
+    "optimismsepolia": {
+      "blockExplorers": [
+        {
+          "apiKey": "JMYR3W6HHVPQ1HH8T6W8HSZVG88IH3MHRU",
+          "apiUrl": "https://api-sepolia-optimistic.etherscan.io/api",
+          "family": "etherscan",
+          "name": "OP Sepolia Explorer",
+          "url": "https://sepolia-optimistic.etherscan.io"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 2,
+        "reorgPeriod": 0
+      },
+      "chainId": 11155420,
+      "deployer": {
+        "name": "Abacus Works",
+        "url": "https://www.hyperlane.xyz"
+      },
+      "displayName": "Optimism Sepolia",
+      "domainId": 11155420,
+      "gasCurrencyCoinGeckoId": "ethereum",
+      "isTestnet": true,
+      "name": "optimismsepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://sepolia.optimism.io"
+        }
+      ],
+      "aggregationHook": "0xccA408a6A9A6dc405C3278647421eb4317466943",
+      "domainRoutingIsm": "0x4ac19e0bafc2aF6B98094F0a1B817dF196551219",
+      "domainRoutingIsmFactory": "0x3b15c6C60cB28fEd4bAbBd5001e53fd871674A74",
+      "fallbackRoutingHook": "0xddf4C3e791caCaFd26D7fb275549739B38ae6e75",
+      "interchainAccountIsm": "0x193c114cd6DBEdEfe439F0259ae7B15F361937C3",
+      "interchainAccountRouter": "0xB9900B8CE3b4326E87791C3611E1CF8E1B3FEfc8",
+      "interchainGasPaymaster": "0x28B02B97a850872C4D33C3E024fab6499ad96564",
+      "interchainSecurityModule": "0x6C718C71b9E1eA1DCa430916F53c243e9FaEeb69",
+      "mailbox": "0x6bCc0C592fb6AfBf8381994f23421C4EE00e99E9",
+      "merkleTreeHook": "0xf623eE8E60b040fC8a3879340acee097b3f19436",
+      "pausableHook": "0x19Be55D859368e02d7b9C00803Eb677BDC1359Bd",
+      "pausableIsm": "0xAD34A66Bf6dB18E858F6B686557075568c6E031C",
+      "protocolFee": "0x1b33611fCc073aB0737011d5512EF673Bff74962",
+      "proxyAdmin": "0xaCEC2b16a7EC1E23D54F6aBFB1e45d90F80F3856",
+      "staticAggregationHookFactory": "0x6eaECB60FAA978F76f58b440592635a11dA83CD2",
+      "staticAggregationIsm": "0x815a9642497Ee1E9F061f8b828C85Eb7193DecfC",
+      "staticAggregationIsmFactory": "0x659fE4463b450f97C4AbEEDBe36A0435d011C335",
+      "staticMerkleRootMultisigIsmFactory": "0xa223f6C8d7965148e5ef870c1e62068318830239",
+      "staticMerkleRootWeightedMultisigIsmFactory": "0xb1BA0910401Bc2b2763DD566Bab519cf00E424EF",
+      "staticMessageIdMultisigIsmFactory": "0xF95630fA71f6cd231643e7d99A20C59C0bD23931",
+      "staticMessageIdWeightedMultisigIsmFactory": "0x0F1d222025d00Bef84BeaF55c39BA541570f6628",
+      "storageGasOracle": "0x5821f3B6eE05F3dC62b43B74AB1C8F8E6904b1C8",
+      "testRecipient": "0x6dd3ed2fa4Faa1b6015f3D78Ade502d14DE80a38",
+      "timelockController": "0x0000000000000000000000000000000000000000",
+      "validatorAnnounce": "0x8849cafA1C39deD97C0f9c11B9D575A63803112b",
+      "index": {
+        "from": 29040410
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}
