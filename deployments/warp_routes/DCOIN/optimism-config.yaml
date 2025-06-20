@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xF2B3e3Ac328F1bd7D26274774b3e91696152c7eD"
+    chainName: davinci
+    connections:
+      - token: ethereum|optimism|0xF2B3e3Ac328F1bd7D26274774b3e91696152c7eD
+    decimals: 18
+    logoURI: /deployments/warp_routes/DCOIN/logo.svg
+    name: DaVinci
+    standard: EvmHypNative
+    symbol: DCOIN
+  - addressOrDenom: "0xF2B3e3Ac328F1bd7D26274774b3e91696152c7eD"
+    chainName: optimism
+    connections:
+      - token: ethereum|davinci|0xF2B3e3Ac328F1bd7D26274774b3e91696152c7eD
+    decimals: 18
+    logoURI: /deployments/warp_routes/DCOIN/logo.svg
+    name: DaVinci
+    standard: EvmHypSynthetic
+    symbol: DCOIN

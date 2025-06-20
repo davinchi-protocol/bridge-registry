@@ -11,6 +11,7 @@ displayName: Davinci
 domainId: 293
 gasCurrencyCoinGeckoId: davinci-coin-2
 isTestnet: false
+logoURI: https://raw.githubusercontent.com/davinchi-protocol/branding-kit/refs/heads/main/logo-network/davinci-logo.svg
 name: davinci
 nativeToken:
   decimals: 18
@@ -20,4 +21,3 @@ protocol: ethereum
 rpcUrls:
   - http: https://rpc.davinci.bz
 technicalStack: other
-logoURI: https://raw.githubusercontent.com/davinchi-protocol/branding-kit/refs/heads/main/logo-network/davinci-logo.svg

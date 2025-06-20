@@ -1,0 +1,14 @@
+davinci:
+  isNft: false
+  owner: "0xB2aB1658bDAf0D0c37C5dC20770065c9849ff2b9"
+  proxyAdmin:
+    address: "0x625865A35534F0cAcA44C5Ad0465f7422A713baF"
+    owner: "0xB2aB1658bDAf0D0c37C5dC20770065c9849ff2b9"
+  type: native
+optimism:
+  isNft: false
+  owner: "0xB2aB1658bDAf0D0c37C5dC20770065c9849ff2b9"
+  proxyAdmin:
+    address: "0x625865A35534F0cAcA44C5Ad0465f7422A713baF"
+    owner: "0xB2aB1658bDAf0D0c37C5dC20770065c9849ff2b9"
+  type: synthetic
