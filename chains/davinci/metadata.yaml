@@ -1,0 +1,23 @@
+blockExplorers:
+  - apiUrl: https://mainnet-explorer.davinci.bz/api
+    family: blockscout
+    name: davinciscan
+    url: https://mainnet-explorer.davinci.bz
+chainId: 293
+deployer:
+  name: DaVinci Labs
+  url: https://davinci.bz
+displayName: Davinci
+domainId: 293
+gasCurrencyCoinGeckoId: davinci-coin-2
+isTestnet: false
+name: davinci
+nativeToken:
+  decimals: 18
+  name: DaVinci
+  symbol: DCOIN
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.davinci.bz
+technicalStack: other
+logoURI: https://raw.githubusercontent.com/davinchi-protocol/branding-kit/refs/heads/main/logo-network/davinci-logo.svg
